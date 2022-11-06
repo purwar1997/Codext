@@ -1,3 +1,4 @@
+import Button from "./Button";
 import logo from "../assets/png-images/white-logo.png";
 
 function Navbar() {
@@ -23,7 +24,7 @@ function Navbar() {
         </li>
       </ul>
 
-      <button className="free-trial-btn">Free Trial</button>
+      <Button classText="free-trial-btn" text="free-trial" />
     </nav>
   );
 }

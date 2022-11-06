@@ -13,9 +13,18 @@ function Features() {
           <h2>It's helpful for operating system</h2>
 
           <div className="features">
-            <Feature />
-            <Feature />
-            <Feature />
+            <Feature
+              heading="Ultra Fast & Secure"
+              arrowClass="fa-solid fa-share one"
+            />
+            <Feature
+              heading="Allow Customization"
+              arrowClass="fa-solid fa-share two"
+            />
+            <Feature
+              heading="Smart Contracts"
+              arrowClass="fa-solid fa-share three"
+            />
           </div>
         </div>
       </div>

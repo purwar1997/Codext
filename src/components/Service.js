@@ -1,14 +1,12 @@
-import icon from "../assets/svg-images/data-analytics.svg";
-
-function Service() {
+function Service(props) {
   return (
-    <div className="service">
-      <div className="icon analytics">
-        <img src={icon} alt="data-analytics" />
+    <div className={props.serviceClass}>
+      <div className={props.iconClass}>
+        <img src={props.icon} alt={props.iconText} />
       </div>
 
       <div className="content">
-        <h3>Data Analytics</h3>
+        <h3>{props.heading}</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </div>
