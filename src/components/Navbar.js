@@ -24,7 +24,7 @@ function Navbar() {
         </li>
       </ul>
 
-      <Button classText="free-trial-btn" text="free-trial" />
+      <Button btnClass="free-trial-btn" btnText="free-trial" />
     </nav>
   );
 }

@@ -12,29 +12,29 @@ function Services() {
 
         <div className="services">
           <Service
-            serviceClass="service active"
-            icon={icon1}
+            cardClass="service active"
+            iconURL={icon1}
             iconClass="icon clean-code"
             iconText="clean-code"
             heading="clean-code"
           />
           <Service
-            serviceClass="service"
-            icon={icon2}
+            cardClass="service"
+            iconURL={icon2}
             iconClass="icon analytics"
             iconText="data-analytics"
             heading="Data Analytics"
           />
           <Service
-            serviceClass="service"
-            icon={icon3}
+            cardClass="service"
+            iconURL={icon3}
             iconClass="icon secured"
             iconText="secured"
             heading="Fully Secured"
           />
           <Service
-            serviceClass="service"
-            icon={icon4}
+            cardClass="service"
+            iconURL={icon4}
             iconClass="icon support"
             iconText="support"
             heading="24/7 Support"
